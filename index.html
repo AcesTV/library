@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+
+<body>
+
+
+    <h1>Library</h1>
+    <div id="main">
+        <div id="displayBooks">
+            <div class="bookCard">
+                <h3 class="bookTitle">Le Loup</h3>
+                <h4 class="bookAuthor">Pierre</h4>
+                <h4 class="bookPages">215 Pages</h4>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <button class="button">Remove</button>
+            </div>
+        </div>
+
+        <div id="addBooks">
+            <form action="#">
+                <label for="title">Title:</label> <input name="title" type="text">
+                <label for="author">Author:</label> <input name="author" type="text">
+                <label for="pages">Pages:</label> <input name="pages" type="text">
+                <label for="readed">Already readed:</label> <input type="checkbox" name="readed" id="readed">
+                <input type="submit" value="Add book">
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
