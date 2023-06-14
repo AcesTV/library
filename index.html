@@ -15,26 +15,15 @@
     <h1>Library</h1>
     <div id="main">
         <div id="displayBooks">
-            <div class="bookCard">
-                <h3 class="bookTitle">Le Loup</h3>
-                <h4 class="bookAuthor">Pierre</h4>
-                <h4 class="bookPages">215 Pages</h4>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                <button class="button">Remove</button>
-            </div>
+
         </div>
 
         <div id="addBooks">
-            <form action="#">
-                <label for="title">Title:</label> <input name="title" type="text">
-                <label for="author">Author:</label> <input name="author" type="text">
-                <label for="pages">Pages:</label> <input name="pages" type="text">
-                <label for="readed">Already readed:</label> <input type="checkbox" name="readed" id="readed">
-                <input type="submit" value="Add book">
-            </form>
+            <label for="title">Title:</label> <input name="title" type="text">
+            <label for="author">Author:</label> <input name="author" type="text">
+            <label for="pages">Pages:</label> <input name="pages" type="text">
+            <label for="readed">Already readed:</label> <input type="checkbox" name="readed" id="readed">
+            <input type="submit" onclick="createBook()" value="Add book">
         </div>
     </div>
 

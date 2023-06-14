@@ -17,18 +17,15 @@ h1 {
     display: flex;
 }
 
-#addbooks {
-    width: 20%;
-    background-color: aqua;
-}
-
-form {
+#addBooks {
     display: flex;
     flex-direction: column;
+    margin-right: 32px;
 }
 
 #displayBooks {
     width: 80%;
+    min-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -45,6 +42,7 @@ form {
 
     background-color: red;
     width: 100%;
+    min-width: 300px;
     height: 100%;
     border-radius: 50px;
 }
